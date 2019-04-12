@@ -2,6 +2,8 @@
 
 This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
 
+Based on Tomas Trajan article [Total Guide To Custom Angular Schematics](https://medium.com/@tomastrajan/total-guide-to-custom-angular-schematics-5c50cf90cdb4)
+
 ### Testing
 
 To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
@@ -25,4 +27,3 @@ npm publish
 ```
 
 That's it!
- 
