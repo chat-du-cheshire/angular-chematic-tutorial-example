@@ -5,6 +5,10 @@
   "type": "object",
   "title": "Hello options schema",
   "properties": {
+    "project": {
+      "type": "string",
+      "description": "Generate in specific Angular CLI workspace project"
+    },
     "name": {
       "type": "string",
       "description": "The name",
